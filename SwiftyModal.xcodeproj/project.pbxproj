@@ -15,6 +15,7 @@
 		63EBCA8A29CEC70B00CE603F /* SwiftyModalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EBCA8929CEC70B00CE603F /* SwiftyModalUITests.swift */; };
 		63EBCA8C29CEC70B00CE603F /* SwiftyModalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EBCA8B29CEC70B00CE603F /* SwiftyModalUITestsLaunchTests.swift */; };
 		63EBCA9B29CECE5800CE603F /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EBCA9A29CECE5800CE603F /* IconButton.swift */; };
+		63EBCA9D29CED03C00CE603F /* GooModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EBCA9C29CED03C00CE603F /* GooModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		63EBCA8929CEC70B00CE603F /* SwiftyModalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyModalUITests.swift; sourceTree = "<group>"; };
 		63EBCA8B29CEC70B00CE603F /* SwiftyModalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyModalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		63EBCA9A29CECE5800CE603F /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		63EBCA9C29CED03C00CE603F /* GooModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				63EBCA6E29CEC70A00CE603F /* SwiftyModalApp.swift */,
 				63EBCA7029CEC70A00CE603F /* ContentView.swift */,
+				63EBCA9C29CED03C00CE603F /* GooModalView.swift */,
 				63EBCA9A29CECE5800CE603F /* IconButton.swift */,
 				63EBCA7229CEC70B00CE603F /* Assets.xcassets */,
 				63EBCA7429CEC70B00CE603F /* Preview Content */,
@@ -262,6 +265,7 @@
 			files = (
 				63EBCA9B29CECE5800CE603F /* IconButton.swift in Sources */,
 				63EBCA7129CEC70A00CE603F /* ContentView.swift in Sources */,
+				63EBCA9D29CED03C00CE603F /* GooModalView.swift in Sources */,
 				63EBCA6F29CEC70A00CE603F /* SwiftyModalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
