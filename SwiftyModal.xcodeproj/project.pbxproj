@@ -100,8 +100,8 @@
 			children = (
 				63EBCA6E29CEC70A00CE603F /* SwiftyModalApp.swift */,
 				63EBCA7029CEC70A00CE603F /* ContentView.swift */,
-				63EBCA9C29CED03C00CE603F /* GooModalView.swift */,
 				63EBCA9A29CECE5800CE603F /* IconButton.swift */,
+				63EBCA9C29CED03C00CE603F /* GooModalView.swift */,
 				63EBCA7229CEC70B00CE603F /* Assets.xcassets */,
 				63EBCA7429CEC70B00CE603F /* Preview Content */,
 			);

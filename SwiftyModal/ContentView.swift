@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showModal = false
+    
     var body: some View {
-        VStack {
-            IconButton(iconName: "xmark", action: {
-                print("")
-            })
+        NavigationView {
+            VStack {
+                Button("Show Modal") {
+                    showModal = true
+                }
+            }
+            .sheet(isPresented: $showModal) {
+                GooModalView(isPresented: $showModal)
+            }
         }
-        .padding()
     }
 }
 

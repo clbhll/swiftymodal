@@ -6,8 +6,31 @@
 //
 
 import SwiftUI
-import UIKit
 
+struct GooModalView: View {
+    @Binding var isPresented: Bool
+    
+    var body: some View {
+        VStack {
+            HStack {
+                Spacer()
+                IconButton(iconName: "xmark", action: {
+                            withAnimation {
+                                isPresented = false
+                            }
+                        })
+                    }
+            .padding()
+            
+            Spacer()
+            
+            Text("Your Modal content goes here")
+            
+            Spacer()
+            
+        }
+        .background(Color.white)
+        .edgesIgnoringSafeArea(.bottom)
+    }
+}
 
-// modal view with custom detents will go here
-// will explore options to create a detent that sizes based on child content
