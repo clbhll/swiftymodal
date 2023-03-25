@@ -32,7 +32,7 @@ struct IconButton: View {
                 Image(systemName: iconName)
                     .resizable()
                     .fontWeight(.semibold)
-                    .frame(width: 14, height: 14)
+                    .frame(width: 13, height: 13)
                     .foregroundColor(Color(UIColor(red: 0.145, green: 0.173, blue: 0.204, alpha: 0.75)))
             }
         }
